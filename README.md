@@ -2,6 +2,9 @@
 ```bash
 git clone https://github.com/cazzysoci/botnet.git
 cd botnet
+```
+
+```bash
 python3 client.py
 ```
 
